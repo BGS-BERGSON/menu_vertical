@@ -1,0 +1,64 @@
+@charset "utf-8"; 
+
+:root{
+    --cor1: rgb (46, 62, 77); 
+    --cor2: rgb (222, 228, 235): 
+}  
+ 
+body{
+    background-image: url('imagens/laptop.jpg');  
+    background-size: cover;
+
+}  
+
+header h1, p{
+    color: white; 
+    text-align: end;  
+    
+    
+    
+}
+
+*{
+    margin: 0px;
+
+}  
+ul{ 
+    text-align: center;
+    padding-top: 300px;
+    font-size: 1.6em; 
+    margin-left: -60px;
+}
+li{
+    list-style-type: none; 
+    
+} 
+a{
+    color: black; 
+    text-decoration: none; 
+    padding-left: 20px;  
+    display: block;
+    
+}
+
+nav{  
+    background-color: white;
+    width: 250px; 
+    height: 100vh; 
+    margin-top: -60px;
+} 
+
+a:hover{
+    background-color: blueviolet; 
+    color: white; 
+    transition: all .5s;
+}
+
+
+
+
+
+
+
+
+
